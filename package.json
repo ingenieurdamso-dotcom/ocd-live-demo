@@ -1,0 +1,43 @@
+{
+  "name": "ocd-live-demo-adama",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24.15"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "start": "node server/index.mjs",
+    "bootstrap": "node scripts/bootstrap.mjs",
+    "test": "node --import tsx --test tests/*.test.mjs",
+    "seed:demo": "node scripts/seed-demo.mjs",
+    "lint": "eslint server scripts tests && tsc --noEmit --noUnusedLocals --noUnusedParameters",
+    "format:check": "prettier --check src server scripts tests public/*.js public/*.css public/*.html public/*.webmanifest index.html eslint.config.mjs vite.config.mjs tsconfig.json package.json"
+  },
+  "dependencies": {
+    "@fontsource/manrope": "^5.3.0",
+    "express": "^5.3.0",
+    "lucide-react": "^1.70.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.2.1",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0",
+    "prettier": "^3.9.10",
+    "react-test-renderer": "^19.3.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6"
+  },
+  "overrides": {
+    "minimatch": "^11.0.1"
+  }
+}

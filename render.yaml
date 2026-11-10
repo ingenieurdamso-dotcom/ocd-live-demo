@@ -1,0 +1,27 @@
+# Blueprint Render : démo OCD Live (plan Free, disque éphémère).
+# Les valeurs sync:false sont demandées dans le tableau de bord à la création
+# et ne sont jamais versionnées.
+services:
+  - type: web
+    name: ocd-live-demo
+    runtime: node
+    plan: free
+    region: frankfurt
+    branch: main
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: TRUST_PROXY
+        value: "1"
+      - key: ADMIN_USERNAME
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: APP_ORIGIN
+        sync: false

@@ -1,0 +1,29 @@
+SCRIPT TEXTE UNIQUEMENT — non enregistré. Captures et vidéo bloquées.
+
+OCD Live simplifie la demande d’un live commercial. Voici une proposition de démonstration par Adama, pas une plateforme officielle de Bovann.
+
+Six formules illustratives : Découverte, Essentiel, Grand Live, Duo, Visibilité et Rendez-vous. Les prix en FCFA ne sont pas validés.
+
+Studio à Lomé ou distance : choisissez votre format. Le mensuel propose quatre sessions, mais seule la première date est réservée ici. Promotion à organiser manuellement.
+
+Choisissez un jour, une heure disponible, puis renseignez une activité fictive. Vérifiez le récapitulatif : aucun paiement ni compte client obligatoire.
+
+Le reçu confirme la réception, pas la réservation définitive. Une option protège le créneau vingt-quatre heures. Conservez votre lien privé.
+
+Deux personnes choisissent la même heure ? Le serveur vérifie et écrit atomiquement. Une seule option passe ; l’autre reçoit un conflit sans perdre son activité.
+
+Une réponse se perd ? Récupérez le reçu du même envoi, sans doublon. Cette reprise en mémoire disparaît si vous rechargez ou quittez la page.
+
+Champs invalides, quota atteint ou serveur inaccessible : le message explique le problème. Les données périmées bloquent les actions jusqu’à une synchronisation réussie.
+
+L’espace équipe exige une session contrôlée par le serveur. L’aperçu public reste fictif et en lecture seule ; ce n’est pas un accès administrateur.
+
+L’équipe confirme ou refuse avec motif. Un refus libère le créneau. Les notifications visibles sont internes et simulées : aucun email n’est envoyé.
+
+Pour reporter, l’équipe propose, le client décide. Les deux horaires sont temporairement protégés. Accepter confirme le nouveau ; refuser ou laisser expirer conserve l’ancien état, sauf option initiale déjà expirée.
+
+Hors connexion, un écran sûr informe. Aucune réservation n’est annoncée réussie et aucun dossier privé n’est mis en cache.
+
+L’installation est facultative selon le navigateur. Un téléphone distant nécessite un hébergement HTTPS, non fourni ici.
+
+Démo proposée par Adama. À valider avec OCD.
